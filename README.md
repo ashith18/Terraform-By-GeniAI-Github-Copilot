@@ -63,7 +63,7 @@ prompt:- @workspace Create a Project Structure for organizing terraform code, ma
 
 ![Image Alt text](/screenshots/azuread.png "AD")
 
-## 1) Azure VM
+## 2) Azure VM
 
   prompt:- @workspace Generate Terraform code to set up a basic Azure Active Directory (Azure AD) with users template, groups or applications
 
