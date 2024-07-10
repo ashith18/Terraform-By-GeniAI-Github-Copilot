@@ -1,32 +1,16 @@
-# 🤖 Generate DevOps solutions using github copilot.
+# 🤖 GenAI in DevOps
 
-## What is GitHub Copilot?
+## Introduction
+GitHub Copilot is an AI-powered code assistant that helps devops engineers write better code faster. It supports a wide range of programming tasks, including working with Terraform to manage cloud resources efficiently.
 
-GitHub Copilot is based upon the GPT-3 AI model, a large language model released by OpenAI back in 2020 and has been trained using public git repositories. This ultimately means that the more publicly available repositories for a certain language, the better GitHub Copilot will perform for it.
-
-GitHub Copilot offers code suggestions based on code you either start writing OR based on comments that you write within your source code. At the same time, CoPilot analyses your source code files to offer suggestions based on ultimately what you’re trying to achieve within your application.
-
-
-## Installing CoPilot
-* step 1 :- Ensure Visual Studio Compatibility - On macOS, go to Code > About Visual Studio Code.
-                                               On Windows and Linux, go to Help > About Microsoft VS.
-
-* step 2 :- Install GitHub Copilot Extension
-          Go to the “Extensions” (“Ctrl+Shift+X” )
-          search for “GitHub Copilot,” and click on the “Download” or “Install” button.
-
-* step 3 :- Restart Visual Studio
-Congratulations, you now have CoPilot installed on your machine!
-
-## Using Co-Pilot
-
-* step 1 :- Launch Visual Studio and open a project in which you want to use Co-Pilot. It could be an existing project or a new one.
-          If you have a GitHub Account already set:
-              A prompt will pop-up asking to authenticate to GitHub.
-              A code will be outputted in the output window, copy this code, click on the link and paste it onto the GitHub page.
-              Then select authorise the GitHub CoPilot plugin.
-
-* step 2 :- To use chat bot - on left side click on chat icon and do sign-in.
+## Features
+- **Generate Code Snippets**: Automatically generate Terraform configurations for AWS, Azure, and GCP resources.
+- **Explain Terraform Concepts**: Get clear explanations of Terraform's core concepts to enhance your infrastructure as code (IaC) projects.
+- **Review Code**: Analyze and improve your Terraform code with suggestions on syntax, structure, and best practices.
+- **Debugging Help**: Resolve error messages and issues quickly during `terraform plan` or `terraform apply`.
+- **Refactoring Suggestions**: Make your Terraform code more modular, reusable, and efficient.
+- **Version Upgrade Guidance**: Seamlessly migrate your Terraform code to newer versions.
+- **Security Best Practices**: Implement security best practices for managing cloud resources.
 
 ## Project Structure
 
@@ -38,7 +22,7 @@ prompt:- @workspace Create a Project Structure for organizing terraform code, ma
 
 ## 1) AWS VPC 
 
-  prompt:- 
+  prompt:- Generate terraform code for AWS VPC
 
 ![Image Alt text](/screenshots/VPC-1.png )
 ![Image Alt text](/screenshots/VPC-2.png )
